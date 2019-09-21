@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- CS Course Page-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    tools:context="com.example.acer.uni.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Computer Science Courses"
+        android:textColor="@android:color/black"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/d"
+        android:text="Computer Network I"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="13dp"
+        android:text="Data Structures and Algorithms III"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="13dp"
+        android:text="Functional Programming"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button3" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="13dp"
+        android:text="Group Project I"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button4" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="13dp"
+        android:text="Mathematical Methods II"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button5" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="13dp"
+        android:text="Programming Language Concepts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button6" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="13dp"
+        android:text="Rapid Application Development"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button7" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="13dp"
+        android:text="Software Engineering III"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:background="@mipmap/d"
+        android:id="@+id/button8"/>
+
+
+</RelativeLayout>
